@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Version Control with Git — Mini Project
 
 **Student Name:** [Your Name]
@@ -112,3 +113,21 @@ Through this project, the fundamentals of Git and GitHub were understood and pra
 
 - Git Official Documentation — https://git-scm.com/doc
 - GitHub Docs — https://docs.github.com
+=======
+# Version Control with Git
+
+This project demonstrates basic Git operations:
+
+- Repository creation
+- Adding and committing files
+- Branch creation
+- Merging branches
+- Working with GitHub
+
+## Files
+- README.md
+- notes.txt
+
+## Author
+Mohammed Abdul Raheem
+>>>>>>> 363870a00969eb83f9664949b9d4ccd3230320c6
