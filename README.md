@@ -1,12 +1,11 @@
 <<<<<<< HEAD
 # Version Control with Git — Mini Project
 
-**Student Name:** [Your Name]
-**Roll Number:** [Your Roll Number]
+**Student Name:** Mohammed Abdul Raheem
+**Roll Number:** 24951A1251
 **Course:** B.Tech, Information Technology — 4th Semester
-**College:** [Your College Name]
-**Subject:** [Subject Name, e.g., Software Engineering / IT Workshop]
-**Guide/Faculty:** [Faculty Name]
+**College:** Institute of Aeronautical Engineering
+**Subject:** DevOps
 
 ---
 
