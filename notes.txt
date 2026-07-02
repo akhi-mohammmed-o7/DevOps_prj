@@ -1,1 +1,47 @@
-Learning about git basics and functionalities. 
+Notes: Version Control with Git
+================================
+
+1. What is Version Control?
+   - A system that records changes to files over time.
+   - Allows reverting to previous versions, comparing changes, and tracking who made what change.
+   - Two types: Centralized (e.g., SVN) and Distributed (e.g., Git).
+
+2. What is Git?
+   - A free, open-source, distributed version control system.
+   - Every developer has a full copy of the project history on their local machine.
+   - Created by Linus Torvalds in 2005.
+
+3. Basic Git Workflow
+   - Working Directory  -> where files are edited
+   - Staging Area (Index) -> where changes are marked for the next commit
+   - Repository (.git)    -> where committed snapshots are permanently stored
+
+4. Common Git Commands Learned
+   - git init                  : initialize a new repository
+   - git status                : check current state of working directory/staging area
+   - git add <file>             : stage a file for commit
+   - git commit -m "message"   : save staged changes as a snapshot
+   - git log                   : view commit history
+   - git branch <name>         : create a new branch
+   - git checkout <branch>     : switch to a branch
+   - git merge <branch>        : merge a branch into the current branch
+   - git remote add origin <url> : link local repo to a remote (GitHub)
+   - git push -u origin master : upload commits to the remote repository
+   - git pull                  : fetch and merge changes from remote
+
+5. Branching and Merging
+   - Branches let you work on new features or fixes without disturbing the main codebase.
+   - "master" (or "main") is typically the primary, stable branch.
+   - Once work on a branch is complete and tested, it is merged back into master.
+
+6. Why Version Control Matters
+   - Keeps a complete history of a project.
+   - Enables safe experimentation via branches.
+   - Supports collaboration among multiple developers.
+   - Makes it possible to recover previous versions if something breaks.
+
+7. Practical Demonstration in This Project
+   - Initialized a repository and added README.md and notes.txt.
+   - Created a "feature-update" branch and modified README.md on it.
+   - Merged the feature branch back into master.
+   - Connected the local repository to GitHub and pushed all commits.
